@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+
+	<meta name="description" content="Vous voulez donner naissance à votre projet web ou remodélisez votre vieux site alors contactez-nous à travers le formulaire">
+	<meta name="robots" content="index,follow" />
+	<meta name="googlebot" content="index,follow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+
+	<link rel="stylesheet" type="text/css" href="./css-min-contact/bootstrap-v3.3.5-min.css">
+	<link rel="stylesheet" type="text/css" href="./css-min-contact/font-awesome-min.css">
+	<link rel="stylesheet" type="text/css" href="./css-desk-mob-contact-final/style.css"> 
+	
+	<!-- <link rel="preload" href="./fonts/et-line.woff" as="font" type="font/woff" crossorigin> -->
+	
+
+	<script defer src="./js-min/jquery-2.1.0-min.js"></script>
+	<script defer src="./js-min/bootstrap-v3.3.5-min.js"></script>
+	<script defer src="./js-min/blocs-min.js"></script>
+	<script defer src="./js-min/jquery.touchSwipe-min.js"></script>
+	<script defer src="./js-min/jqBootstrapValidation-min.js"></script>
+	<script defer src="./js-min/formHandler-min.js"></script>
+
+	
+	<title>Formulaire de Contact de la chouette agence</title>
+
+
+	<!-- Analytics -->
+
+	<!-- Analytics END -->
+
+</head>
+
+<body>
+	<!-- Principal conteneur -->
+	<div class="page-container">
+
+		<!-- bloc-0 -->
+		<header class="bloc bgc-white l-bloc " 
+				id="bloc-0" role="banner" aria-label="header">
+			<div class="container bloc-sm">
+
+				<nav class="navbar row" 
+					role="navigation" aria-label="header navigation">
+					<div class="navbar-header">
+
+						<a class="navbar-brand" href="index.html" aria-label="Retour à la page Accueil">
+							<img src="img-after-resize-by-comp/la-chouette-agence-png-212w40h.png"
+							alt="logo officiel de l'entreprise de web design, la chouette agence" 
+							width="214"
+							height="40" />
+						</a>
+
+						<button id="nav-toggle" type="button" 
+							class="ui-navbar-toggle navbar-toggle"
+							data-toggle="collapse" 
+							data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a href="index.html" aria-label="Direction la page Accueil">Accueil</a>
+							</li>
+							<li>
+								<a href="contact.html" aria-label="Direction la page Contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- bloc-0 END -->
+
+		<main role="main" aria-label="main content">
+			<!-- bloc-6 -->
+		<!--<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper"></section> de bloc-5-cta de index.html -->
+			<header class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper b-parallax"
+				id="bloc-6" role="presentation" aria-label="titre web design">
+				<div class="container bloc-lg">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 class="text-center hero-bloc-text tc-white">
+								Parlons web design !
+							</h1>
+							<p class="text-center mg-lg tc-white tight-width-whitespace">
+								Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+								Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+							</p>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- bloc-6 END -->
+
+			<!-- bloc-7 -->
+			<div class="bloc bgc-white l-bloc" id="bloc-7">
+				<div class="container bloc-lg">
+					<div class="row">
+						<div class="col-sm-6">
+							<form id="form_1" role="form" aria-label="formulaire" 
+								action="includes/form_1.php"
+								method="POST" 
+								novalidate 
+								data-success-msg="Your message has been sent."
+								data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+								<div class="form-group">
+									<label for="name">
+										Nom
+									</label>
+									<input id="name" class="form-control" required />
+								</div>
+								<div class="form-group">
+									<label for="email">
+										Adresse email
+									</label>
+									<input id="email" class="form-control" type="email" required />
+								</div>
+								<div class="form-group">
+									<label for="input_504">
+										Comment nous avez-vous connu ?
+									</label>
+									<input class="form-control" type="email" required id="input_504" />
+								</div>
+								<div class="form-group">
+									<label for="message">
+										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+									</label>
+									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								</div>
+								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
+									type="submit">
+									Envoyer
+								</button>
+							</form>
+						</div>
+						<div class="col-sm-6">
+							<p>
+								contact@lachouetteagence.com<br>
+								2 place Sathonay 69001 Lyon<br>
+								Ouvert de 9h à 18h, du lundi
+								au vendredi<br>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- bloc-7 END -->
+
+			<!-- ScrollToTop Button -->
+			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+					class="fa fa-chevron-up"></span></a>
+			<!-- ScrollToTop Button END-->
+
+		</main>
+
+		<!-- Footer - bloc-8 -->
+		<footer class="bloc bgc-atomic-tangerine d-bloc" 
+				id="bloc-8" role="contentinfo" aria-label="footer">
+			<div class="container bloc-sm">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2 class="text-center collaborateur">
+							La chouette agence - Agence web basée à Lyon.
+						</h2>
+						<br>
+						<div class="row row-no-gutters social">
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" aria-label="twitter" href="https://twitter.com/">
+										<span class="fa fa-twitter icon-md collaborateur"></span>
+									</a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" aria-label="facebook" href="https://facebook.com/">
+										<span class="fa fa-facebook icon-md collaborateur"></span>
+									</a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" aria-label="dribbble" href="https://dribbble.com/">
+										<span class="fa fa-dribbble icon-md collaborateur"></span>
+									</a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" aria-label="instagram" href="https://instagram.com/">
+										<span class="fa fa-instagram icon-md collaborateur"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer - bloc-8 END -->
+
+	</div>
+	<!-- Principal conteneur END -->
+
+
+</body>
+
+</html>
