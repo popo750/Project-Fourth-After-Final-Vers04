@@ -263,7 +263,7 @@ label,
 p {
     font-family: helvetica;
     font-weight: 400;
-    color: #575757 !important;
+    color: #575757;
 }
 
 .container {
@@ -322,7 +322,7 @@ h1 {
     /* Old color No conform for ratio contrast WCAG 2.1 */
     background-color: #f3976c;
     /* New color conform for ratio contrast WCAG 2.1 */
-    color: #000060 !important;
+    color: #000 !important;
 }
 
 .tc-white {
@@ -337,14 +337,14 @@ h1 {
     /* Old color No conform for ratio contrast WCAG 2.1 */
     /*color: #fff !important; */
     /* New color conform for ratio contrast WCAG 2.1 */
-     color: #000060 !important;
+     color: #000 !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
      /*color: #fff !important; */
     /* New color conform for ratio contrast WCAG 2.1 */
-    color: #000060 !important; 
+    color: #000 !important; 
 }
 
 .bg-banniere {
@@ -354,7 +354,7 @@ h1 {
 
 .collaborateur {
     /* New color conform for ratio contrast WCAG 2.1 */
-    color: #000060 !important; 
+    color: #000 !important; 
 }
 
 /* ajout perso : mode tv */
