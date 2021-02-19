@@ -349,7 +349,7 @@ h1 {
 
 .bg-banniere {
     background-image: url(../img-jpeg-by-comp/la-chouette-banniere-1570w650h.jpeg);
-    background-image: url(../img-webp-by-comp/la-chouette-banniere-1570w650h.webp);
+   /* background-image: url(../img-webp-by-comp/la-chouette-banniere-1570w650h.webp); */
 }
 
 .collaborateur {
@@ -361,7 +361,7 @@ h1 {
 @media (min-width: 1600px) {
     .bg-banniere {
         background-image: url(../img-jpeg-by-comp/la-chouette-agence-banniere-1920w785h.jpeg);
-        background-image: url(../img-webp-by-comp/la-chouette-agence-banniere-1920w785h.webp);
+       /* background-image: url(../img-webp-by-comp/la-chouette-agence-banniere-1920w785h.webp); */
     }
 }
 
@@ -374,7 +374,7 @@ h1 {
     /* ajout perso */
     .bg-banniere {
         background-image: url(../img-jpeg-by-comp/la-chouette-banniere-1250w500h.jpeg);
-        background-image: url(../img-webp-by-comp/la-chouette-banniere-1250w500h.webp);
+       /* background-image: url(../img-webp-by-comp/la-chouette-banniere-1250w500h.webp); */
     }
     
 }
@@ -497,7 +497,7 @@ h1 {
     /* ajout perso */
     .bg-banniere {
         background-image: url(../img-jpeg-by-comp/la-chouette-banniere-864w353h.jpeg);
-        background-image: url(../img-webp-by-comp/la-chouette-banniere-864w353h.webp);
+       /* background-image: url(../img-webp-by-comp/la-chouette-banniere-864w353h.webp); */
     }
     
 }
